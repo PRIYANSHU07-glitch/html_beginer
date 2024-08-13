@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/contact">
+        <!-- ENTER YOUR AGE: <input text="text" target="blank" placeholder="AGE"><br>
+ENTER YOUR NAME: <input text="text" target="blank" required="true"><br>
+PASSWORD:<input text="password" required="true">!-->     
+<label for="email">USERNAME: </label>
+<input type="text" id="email" required="true" placeholder="email"><br>
+<label for="password">PASSWORD:</label>
+<input type="password" id="user_password" required="true"><br>
+DATE: <input type="date"><br>
+FILE:<input type="file"><br><br>
+<!-- BUTTON: <input type="button" value="click me"> -->
+ <label for="male">Male</label>
+ <input type="radio" id="male" name="gender" value="male"><br>
+ <label for="female">female</label>
+ <input type="radio"  id="female" name="gender" value="female"><br>
+ <label>other</label>
+ <input type="radio" name="gender" value="other"><br>
+ <label for="branch">Choose Branch</label>
+ <select name="branch" id="branch">
+    <option value="bca">BCA</option>
+    <option value="bba">BCA</option>
+    <option value="b.tech">B.TECH</option>
+    <option value="other">other</option>
+ </select> 
+
+<input type="submit">
+
+</form>
+
+    
+</body>
+</html>
